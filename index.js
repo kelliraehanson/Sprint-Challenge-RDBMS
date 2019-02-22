@@ -17,7 +17,7 @@ server.get('/', (req, res) => {
     res.send('<h1>Things are working on Sprint Challenge RDBMS!</h1>');
   });
 
-// GET LIST OF ALL PROJECTS  
+// GET LIST OF ALL PROJECTS!
 
   server.get('/api/projects', (req, res) => {
     db('project')
